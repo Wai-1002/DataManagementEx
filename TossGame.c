@@ -3,6 +3,10 @@
 #include <time.h>
 
 int main(){
+    char name[100];
+    printf("Who are you?\n");
+    scanf("%s",name);
+    printf("Hello,%s!\n", name);
     int countH = 0, countT = 0;
     srand((unsigned int)time(NULL));
     printf("Tossing a coin...\n");
